@@ -1,0 +1,63 @@
+.images-list-container {
+  list-style-type: none;
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .images-list-container {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .images-list-container {
+    width: 100%;
+  }
+}
+.third-section-image {
+  height: 300px;
+  width: 90%;
+  border-radius: 10px;
+}
+.details-container {
+  width: 100%;
+}
+.rating-and-country-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 5px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.country {
+  list-style-type: disc;
+  margin-left: 25px;
+  color: rgb(108, 110, 112);
+  font-family: 'Roboto';
+  width: 50%;
+}
+.description {
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.rupee-icon {
+  height: 18px;
+  width: 20px;
+  margin-left: 3px;
+}
+.cost {
+  color: black;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.span {
+  font-weight: 400;
+}

@@ -1,0 +1,93 @@
+.home-main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+  width: 100%;
+  background-color: #fafafa;
+}
+.home-container {
+  width: 90%;
+}
+.heading-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  color: black;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 22px;
+  }
+}
+.button-icon {
+  height: 15px;
+  width: 15px;
+}
+.button {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 1px solid #c2bebe;
+  background: transparent;
+  cursor: pointer;
+  margin: 5px;
+  padding-top: 5px;
+}
+.section-section-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 0px;
+}
+.button-section-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.button-container {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  border-right: 2px solid #c2bebe;
+  margin-right: 10px;
+}
+.second-section-button {
+  height: 35px;
+  min-width: 80px;
+  border: 1px solid #c2bebe;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  background: transparent;
+}
+.bottom-card-heading {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.images-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+.bottom-heading-and-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
